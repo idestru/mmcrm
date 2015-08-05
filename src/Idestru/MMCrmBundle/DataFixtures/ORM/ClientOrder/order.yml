@@ -1,0 +1,65 @@
+order_1:
+    firstName: John 
+    lastName: Shon
+    phoneNumber: '+9(900) 111-11-11'
+    material: Mat111
+    price: 100.99
+    tasks: 1-5,6,8,18-20
+    variant: 10
+    
+order_2:
+    firstName: Sam 
+    lastName: Gold
+    phoneNumber: '+9(900) 111-21-21'
+    material: Mat333
+    price: 200.912
+    tasks: 1-10
+    variant: 2
+    
+order_3:
+    firstName: Victor 
+    lastName: Ray
+    phoneNumber: '+9(900) 111-11-11'
+    material: MU111
+    price: 100.99
+    tasks: 1-5,6,8,18-20
+    variant: 10
+
+order_4:
+    firstName: Lena 
+    lastName: Luvr
+    phoneNumber: '+9(900) 111-11-11'
+    material: L111
+    price: 100.99
+    tasks: 1-5,6,8,18-20
+    variant: 10
+
+order_5:
+    firstName: Thor 
+    lastName: Gron
+    phoneNumber: '+9(900) 111-11-11'
+    material: LI111
+    price: 100.99
+    tasks: 1-5,6,8,18-20
+    variant: 10
+    
+order_6:
+    firstName: Dmitriy 
+    lastName: Haratyan
+    phoneNumber: '+9(900) 111-11-11'
+    material: 200
+    price: 100.99
+    tasks: 1-5,6,8,18-20
+    variant: 550
+    
+order_7:
+    firstName: Dim 
+    lastName: Dim
+    phoneNumber: '+9(800) 111-11-11'
+    material: M1290
+    price: 900
+    tasks: 1-5,18-20
+    variant: 22
+    
+    
+    
