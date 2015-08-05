@@ -1,0 +1,4 @@
+services:
+#    mm_crm.example:
+#        class: Idestru\MMCrmBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

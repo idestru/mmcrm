@@ -1,0 +1,30 @@
+order:
+    path:     /
+    defaults: { _controller: "MMCrmBundle:ClientOrder:index" }
+
+order_show:
+    path:     /{id}/show
+    defaults: { _controller: "MMCrmBundle:ClientOrder:show" }
+
+order_new:
+    path:     /new
+    defaults: { _controller: "MMCrmBundle:ClientOrder:new" }
+
+order_create:
+    path:     /create
+    defaults: { _controller: "MMCrmBundle:ClientOrder:create" }
+    methods:  POST
+
+order_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "MMCrmBundle:ClientOrder:edit" }
+
+order_update:
+    path:     /{id}/update
+    defaults: { _controller: "MMCrmBundle:ClientOrder:update" }
+    methods:  [POST, PUT]
+
+order_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "MMCrmBundle:ClientOrder:delete" }
+    methods:  [POST, DELETE]

@@ -1,13 +1,13 @@
 #mmcrm v0.0.1
 
-1) Create an order table with foliwing fields:
+1) Create an order table with folowing fields:
 
 ##ORDERS
 
 | Field        | Type/Length  | Constraints   |   
 |:------------:|:------------:|:-------------:| 
-|Client Name   | string(255)  | required   >2 |
-|Client Surname| string(255)  | required   >3 |
+|First Name    | string(255)  | required   >2 |
+|Last Name     | string(255)  | required   >3 |
 |Phone Number  | string(30)   | mobile pattern|
 |Material      | string(30)   | required   >2 |
 |Variant       | integer      | required      |
@@ -17,4 +17,16 @@
 |Price         | date         | required, auto|
 
 2) Make crud
-3) Create a command to fill the table with random data
+
+
+3) Add twitter bootstrap
+
+4) Add .editorconfig
+
+5) Doctrine fixtures
+
+5) Pagination
+
+6) Create a command to fill the table with random data
+
+7) Searching filter

@@ -1,3 +1,4 @@
-app:
-    resource: "@AppBundle/Controller/"
-    type:     annotation
+mm_crm:
+    resource: "@MMCrmBundle/Resources/config/routing.yml"
+    prefix:   /
+

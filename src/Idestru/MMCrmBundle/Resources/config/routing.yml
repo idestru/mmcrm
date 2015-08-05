@@ -1,0 +1,7 @@
+mm_crm_order:
+    resource: "@MMCrmBundle/Resources/config/routing/clientorder.yml"
+    prefix:   /order
+
+#mm_crm_homepage:
+#    path:     /hello/{name}
+#    defaults: { _controller: MMCrmBundle:Default:index }

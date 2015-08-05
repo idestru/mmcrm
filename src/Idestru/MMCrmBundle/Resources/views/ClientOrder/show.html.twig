@@ -1,0 +1,64 @@
+{% extends '::base.html.twig' %}
+
+{% block body -%}
+    <h1>ClientOrder</h1>
+
+    <table class="record_properties">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ entity.id }}</td>
+            </tr>
+            <tr>
+                <th>Firstname</th>
+                <td>{{ entity.firstName }}</td>
+            </tr>
+            <tr>
+                <th>Lastname</th>
+                <td>{{ entity.lastName }}</td>
+            </tr>
+            <tr>
+                <th>Phonenumber</th>
+                <td>{{ entity.phoneNumber }}</td>
+            </tr>
+            <tr>
+                <th>Material</th>
+                <td>{{ entity.material }}</td>
+            </tr>
+            <tr>
+                <th>Variant</th>
+                <td>{{ entity.variant }}</td>
+            </tr>
+            <tr>
+                <th>Tasks</th>
+                <td>{{ entity.tasks }}</td>
+            </tr>
+            <tr>
+                <th>Doneat</th>
+                <td>{{ entity.doneAt|date('Y-m-d H:i:s') }}</td>
+            </tr>
+            <tr>
+                <th>Createdat</th>
+                <td>{{ entity.createdAt|date('Y-m-d H:i:s') }}</td>
+            </tr>
+            <tr>
+                <th>Price</th>
+                <td>{{ entity.price }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+        <ul class="record_actions">
+    <li>
+        <a href="{{ path('order') }}">
+            Back to the list
+        </a>
+    </li>
+    <li>
+        <a href="{{ path('order_edit', { 'id': entity.id }) }}">
+            Edit
+        </a>
+    </li>
+    <li>{{ form(delete_form) }}</li>
+</ul>
+{% endblock %}
